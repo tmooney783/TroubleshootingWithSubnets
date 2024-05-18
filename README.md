@@ -1,6 +1,4 @@
-<h2>In this project I learned how to use a subnet to troubleshoot a host computer with no internet access. </h2>
-
-In this project I learned how to reverse subnet in order to troubleshoot a host (**Host 2**) with no network access.
+The diagram below shows a simple network setup. Host 2 is having problems connecting to the internet. I want to use the subnet information to troubleshoot the issue. 
 
 
                router: 
@@ -37,12 +35,12 @@ Then used the binary subnet mask and increment to determine the network ranges:
     172.17.239.255 - 172.17.255.255
 
 
-This showed me that the host I'm troubleshooting is on the network with a range of 
+This showed me that the host I'm troubleshooting is on the network with a range of: 
 
     172.17.16.0 - 172.17.31.255
 
 so then I could see the problem was that the host was not on the same network as the default gateway, which is 
-on the range 
+on the range: 
 
     172.17.0.0 - 172.17.15.255
 
