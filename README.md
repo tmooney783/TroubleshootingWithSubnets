@@ -1,4 +1,4 @@
-The diagram below shows a simple network setup. Host 2 is having problems connecting to the internet. I want to use the subnet information to troubleshoot the issue. 
+<h3>The diagram below shows a simple network setup. Host 2 is having problems connecting to the internet. I want to use the subnet information to troubleshoot the issue.</h3>
 
 
                router: 
